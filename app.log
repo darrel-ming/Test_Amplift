@@ -1,0 +1,23 @@
+2024-08-14 03:06:32,359 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-14 03:06:32,359 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-14 03:06:37,584 - INFO - 127.0.0.1 - - [14/Aug/2024 03:06:37] "GET / HTTP/1.1" 200 -
+2024-08-14 03:06:37,640 - INFO - 127.0.0.1 - - [14/Aug/2024 03:06:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-08-14 03:06:37,653 - INFO - 127.0.0.1 - - [14/Aug/2024 03:06:37] "GET /static/script.js HTTP/1.1" 200 -
+2024-08-14 03:06:41,395 - INFO - User Query: hi
+2024-08-14 03:06:41,395 - INFO - 127.0.0.1 - - [14/Aug/2024 03:06:41] "POST /log HTTP/1.1" 200 -
+2024-08-14 03:06:41,396 - INFO - User Message Received: hi
+2024-08-14 03:06:41,396 - INFO - 127.0.0.1 - - [14/Aug/2024 03:06:41] "POST /chat HTTP/1.1" 200 -
+2024-08-14 03:06:41,402 - INFO - User Input: hi
+2024-08-14 03:06:42,993 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-14 03:06:43,030 - INFO - 127.0.0.1 - - [14/Aug/2024 03:06:43] "GET /chat HTTP/1.1" 200 -
+2024-08-14 03:06:43,030 - INFO - Bot Response Chunk: 
+2024-08-14 03:06:43,030 - INFO - Bot Response Chunk: Hello
+2024-08-14 03:06:43,054 - INFO - Bot Response Chunk: !
+2024-08-14 03:06:43,054 - INFO - Bot Response Chunk:  How
+2024-08-14 03:06:43,055 - INFO - Bot Response Chunk:  can
+2024-08-14 03:06:43,100 - INFO - Bot Response Chunk:  I
+2024-08-14 03:06:43,100 - INFO - Bot Response Chunk:  assist
+2024-08-14 03:06:43,101 - INFO - Bot Response Chunk:  you
+2024-08-14 03:06:43,144 - INFO - Bot Response Chunk:  today
+2024-08-14 03:06:43,145 - INFO - Bot Response Chunk: ?
